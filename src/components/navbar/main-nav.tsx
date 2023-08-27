@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Link } from 'react-router-dom';
-import { items } from '../navbar/items';
+import { Link } from 'react-router-dom';
+import { items } from './items';
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 
@@ -8,8 +8,7 @@ export function MainNav({
   ...props
 }: React.HTMLAttributes<HTMLElement>) {
   return (
-    <Router>
-      <nav
+    <nav
       className={cn("flex items-center space-x-3 lg:space-x-6", className)}
       {...props}
     >
@@ -47,6 +46,5 @@ export function MainNav({
         Contacts
       </Link> */}
     </nav>
-    </Router>
   )
 }
