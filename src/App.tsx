@@ -1,7 +1,7 @@
 import './App.css'
 import { ThemeProvider } from './components/providers/theme-provider'
 import { TailwindIndicator } from './components/tailwind-indicator'
-import DashboardPage from './dashboard'
+import Dashboard from './dashboard'
 /* import Home from './home' */
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
       <TailwindIndicator />
-        <DashboardPage />
+        <Dashboard />
       </ThemeProvider>
     </>
   )
