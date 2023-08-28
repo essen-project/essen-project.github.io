@@ -13,7 +13,7 @@ export const items = [
      },
      {
        name: "Kanban Desk",
-       path: "/#desk",
+       path: "/desk",
      },
      {
        name: "Contacts",
