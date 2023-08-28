@@ -8,7 +8,7 @@ export function MainNav({
   ...props
 }: React.HTMLAttributes<HTMLElement>) {
   return (
-    <nav
+      <nav
       className={cn("flex items-center space-x-3 lg:space-x-6", className)}
       {...props}
     >

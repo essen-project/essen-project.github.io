@@ -5,11 +5,11 @@ export const items = [
      },
      {
        name: "Projects",
-       path: "/#projects",
+       path: "/projects",
      },
      {
        name: "Tasks",
-       path: "/#tasks",
+       path: "/tasks",
      },
      {
        name: "Kanban Desk",
@@ -17,6 +17,6 @@ export const items = [
      },
      {
        name: "Contacts",
-       path: "/#contacts",
+       path: "/contacts",
      },
    ];

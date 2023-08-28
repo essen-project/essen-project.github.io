@@ -1,19 +1,13 @@
-import './App.css'
-import { ThemeProvider } from './components/providers/theme-provider'
-import { TailwindIndicator } from './components/tailwind-indicator'
-import Dashboard from './dashboard'
-/* import Home from './home' */
+import RootLayout from "./layout";
+import Home from "./page";
 
-function App() {
+export default function App() {
 
   return (
     <>
-      <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-      <TailwindIndicator />
-        <Dashboard />
-      </ThemeProvider>
+      <RootLayout>
+        <Home />
+      </RootLayout>
     </>
   )
 }
-
-export default App
