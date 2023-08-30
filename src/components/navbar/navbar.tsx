@@ -1,11 +1,12 @@
 import { Search } from "@/components/navbar/search"
 import { MainNav } from "./main-nav"
 /* import TeamSwitcher from "@/components/dashboard/team-switcher" */
-import { UserNav } from "@/components/dashboard/user-nav"
+import { UserNav } from "@/components/navbar/user-nav"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Icons as Icon } from "@/components/icons"
 import { Link } from "react-router-dom"
 import { MobileNav } from "./mobile-nav"
+import { AddNav } from "../add-nav"
 
 function Navbar() {
   return (
@@ -19,6 +20,7 @@ function Navbar() {
        <div className="ml-auto hidden items-center space-x-4 lg:flex">
          <Search />
          <ModeToggle />
+         <AddNav />
          <UserNav />
        </div>
       <MobileNav />

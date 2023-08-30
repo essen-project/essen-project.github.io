@@ -12,7 +12,7 @@ import { items } from "./items";
 import { Link } from "react-router-dom";
 import { ModeToggle } from "../mode-toggle";
 import { Search } from "./search";
-import { UserNav } from "../dashboard/user-nav";
+import { UserNav } from "./user-nav";
 
 export function MobileNav() {
   return (
