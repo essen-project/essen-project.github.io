@@ -7,7 +7,7 @@ import Desk from './desk'
 
 export default function Home() {
   return (
-    <main className='xl:mx-36 2xl:mx-56'>
+    <main className=''>
      <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="projects" element={<Projects />} />
