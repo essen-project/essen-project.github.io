@@ -69,3 +69,22 @@ import {
        icon: ArrowUpIcon,
      },
    ]
+
+   export const roles = [
+    {
+      label: "Admin",
+      value: "admin",
+    },
+    {
+      label: "Manager",
+      value: "manager",
+    },
+    {
+      label: "Developer",
+      value: "developer",
+    },
+    {
+      label: "Employee",
+      value: "employee",
+    }
+   ]

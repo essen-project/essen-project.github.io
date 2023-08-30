@@ -11,3 +11,16 @@ export const taskSchema = z.object({
 })
 
 export type Task = z.infer<typeof taskSchema>
+
+export const contactsSchema = z.array(
+  z.object({
+    id: z.string(),
+    name: z.string(),
+    email: z.string(),
+    phone: z.string(),
+    role: z.string(),
+    position: z.string(),
+  })
+)
+
+export type Contacts = z.infer<typeof contactsSchema>

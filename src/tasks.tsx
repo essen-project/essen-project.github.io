@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 
 function getTasks() {
    
-     /* const tasks = JSON.parse(data.toString()) */
+     const parsedData = typeof data === "string" ? JSON.parse(data) : data;
    
-     return z.array(taskSchema).parse(data)
-   }
+     return z.array(taskSchema).parse(parsedData)
+}
 export default function Tasks() {  
    const tasks = getTasks()
   return (
