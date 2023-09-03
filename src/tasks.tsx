@@ -21,7 +21,7 @@ export default function Tasks() {
    const tasks = getTasks()
   return (
     <>
-      <div className="hidden h-full flex-1 flex-col space-y-8 md:flex">
+      <div className="hidden h-full flex-1 flex-col space-y-8 md:flex ">
         <h2 className="text-3xl font-bold tracking-tight">Tasks</h2>
         <DataTable data={tasks} columns={columns} />
       </div>
