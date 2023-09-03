@@ -17,7 +17,7 @@ import {
    
    export function Menu() {
      return (
-       <Menubar className="rounded-none border-b border-none px-2 lg:px-4">
+       <Menubar className="rounded-none border-t-0 border-x-0 border-b px-2 lg:px-4 w-full bg-background fixed z-[60] top-0">
          <MenubarMenu>
            <MenubarTrigger className="font-bold">essen</MenubarTrigger>
            <MenubarContent>
