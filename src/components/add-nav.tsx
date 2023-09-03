@@ -12,12 +12,7 @@ import {
      DropdownMenuContent,
      DropdownMenuGroup,
      DropdownMenuItem,
-     DropdownMenuPortal,
-     DropdownMenuSeparator,
      DropdownMenuShortcut,
-     DropdownMenuSub,
-     DropdownMenuSubContent,
-     DropdownMenuSubTrigger,
      DropdownMenuTrigger,
    } from "@/components/ui/dropdown-menu"
    
