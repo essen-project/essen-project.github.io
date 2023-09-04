@@ -4,9 +4,11 @@ import { items } from "./items"
 import { Link } from "react-router-dom"
 
 interface SidebarProps extends React.HTMLAttributes<HTMLDivElement> {
+  activeTab?: string
+  onTabClick: (tabPath: string) => void;
 }
 
-export function Sidebar({ className }: SidebarProps) {
+export function Sidebar({ className, activeTab, onTabClick }: SidebarProps) {
   return (
     <div className={cn("pb-12", className)}>
       <div className="space-y-4 py-4">
@@ -17,12 +19,18 @@ export function Sidebar({ className }: SidebarProps) {
           <div className="space-y-1">
             {
               items.map((item, i) => (
-                <Button variant="ghost" className="w-full justify-start" key={`item-${i}`} asChild>
-                  <Link to={ item.path }>
-                  {item.icon && <item.icon className="mr-2 h-4 w-4" />}
+              <Button
+                variant={item.path === activeTab ? "secondary" : "ghost"} // Set the variant based on the active property
+                className="w-full justify-start p-4 h-auto capitalize"
+                key={`item-${i}`}
+                asChild
+                onClick={() => onTabClick(item.path)}
+              >
+                <Link to={item.path}>
+                  {item.icon && <item.icon className="mr-2 h-5 w-5" />}
                   {item.name}
-                  </Link>
-                </Button>
+                </Link>
+              </Button>
               ))
             }
           </div>

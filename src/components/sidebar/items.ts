@@ -4,17 +4,17 @@ export const items = [
      {
        name: "Dashboard",
        path: "/",
-       icon: GaugeCircle
+       icon: GaugeCircle,
      },
      {
        name: "Projects",
        path: "/projects",
-       icon: Presentation
+       icon: Presentation,
      },
      {
        name: "Tasks",
        path: "/tasks",
-       icon: ListChecks
+       icon: ListChecks,
      },
      {
        name: "Kanban Desk",
@@ -24,7 +24,7 @@ export const items = [
      {
        name: "Contacts",
        path: "/contacts",
-       icon: Contact2
+       icon: Contact2,
      },
      {
        name: "Calendar",

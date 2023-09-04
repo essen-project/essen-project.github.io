@@ -14,9 +14,6 @@ import {
            </Avatar>
            <div className="ml-4 space-y-1 text-left">
              <p className="text-sm font-medium leading-none">Olivia Martin</p>
-             <p className="text-sm text-muted-foreground">
-               olivia.martin@email.com
-             </p>
            </div>
            <div className="ml-auto font-medium">marked task as complete</div>
          </div>
@@ -27,7 +24,6 @@ import {
            </Avatar>
            <div className="ml-4 space-y-1 text-left">
              <p className="text-sm font-medium leading-none">Jackson Lee</p>
-             <p className="text-sm text-muted-foreground">jackson.lee@email.com</p>
            </div>
            <div className="ml-auto font-medium">marked task as complete</div>
          </div>
@@ -38,9 +34,6 @@ import {
            </Avatar>
            <div className="ml-4 space-y-1 text-left">
              <p className="text-sm font-medium leading-none">Isabella Nguyen</p>
-             <p className="text-sm text-muted-foreground">
-               isabella.nguyen@email.com
-             </p>
            </div>
            <div className="ml-auto font-medium">marked task as complete</div>
          </div>
@@ -51,7 +44,6 @@ import {
            </Avatar>
            <div className="ml-4 space-y-1 text-left">
              <p className="text-sm font-medium leading-none">William Kim</p>
-             <p className="text-sm text-muted-foreground">will@email.com</p>
            </div>
            <div className="ml-auto font-medium">marked task as complete</div>
          </div>
@@ -62,7 +54,6 @@ import {
            </Avatar>
            <div className="ml-4 space-y-1 text-left">
              <p className="text-sm font-medium leading-none">Sofia Davis</p>
-             <p className="text-sm text-muted-foreground">sofia.davis@email.com</p>
            </div>
            <div className="ml-auto font-medium">marked task as complete</div>
          </div>
